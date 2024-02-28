@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise-7</title>
+    <title>Exercise-6</title>
     <style>
         .logo{
-            width: 25px;
-            height: 20px;
-            background-color: red;
-            float: left;
+        
+        }
+        .logo img{
+            width: 130px;
+            height: 60px;
         }
         nav{
             display: flex;
@@ -21,55 +22,103 @@
             list-style: none;
             padding: 10px;
         }
-        main{
-            color: aquamarine;
+        .first{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 70px;
+            gap: 30px;
+            font-family: sans-serif;
         }
-        .main-1{
-            background-color: black;
+        .first span{
+            font-size: 40px;
+            font-weight: 10;
         }
-        .main-2{
-            background-color: blueviolet;
+        .first p{
+            font-size: 20px;
+            width: 44vw;
+            text-align: center;
         }
+        .btn{
+            padding: 14px 16px;
+            border: none;
+            background-color: #00b0f0;
+            color: white;
+            border-radius: 6px;
+            font-weight: 700;
+        }
+        .first button{
+            padding: 14px 16px;
+            border: none;
+            background-color: #00b0f0;
+            color: white;
+            border-radius: 6px;
+            font-weight: 700;
+        }
+        .flex{
+            display: flex;
+          
+        }
+        .small{
+            font-size: 12px;
+        }
+        .second{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: aqua;
+        }
+ 
     </style>
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo"></div>
+            <div class="logo">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp" alt="">
+            </div>
             <div class="right">
                 <ul>
-                    <li>Product</li>
-                    <li>Pricing</li>
-                    <li>Resource</li>
-                    <li>About Us</li>
-                    <li>Login</li>
-                    <li>Singin</li>
+                    <li><span> Product </span><img src="https://cdn.hugeicons.com/icons/arrow-down-01-stroke-rounded.svg" alt="arrow-down-01" width="15" height="15" /></li>
+                    <li><span> Pricing </span><img src="https://cdn.hugeicons.com/icons/arrow-down-01-stroke-rounded.svg" alt="arrow-down-01" width="15" height="15" /></li>
+                    <li><span> Resource </span><img src="https://cdn.hugeicons.com/icons/arrow-down-01-stroke-rounded.svg" alt="arrow-down-01" width="15" height="15" /></li>
+                    <li><span> About Us </span><img src="https://cdn.hugeicons.com/icons/arrow-down-01-stroke-rounded.svg" alt="arrow-down-01" width="15" height="15" /></li>
+                    <li><span> Login </span><img src="https://cdn.hugeicons.com/icons/arrow-down-01-stroke-rounded.svg" alt="arrow-down-01" width="15" height="15" /></li>
+                    <li>
+                        <img src="https://www.ultraedit.com/" alt="">
+                    </li>
                 </ul>
             </div>
 
         </nav>
     </header>
-    <main class="main-1">
-        <section>
-            Doenlode the image from the link below and use it as a background image for the section.
+    <main>
+        <section class="first">
+            <span>Download <b>Ultraedit</b> for Windows Reviews</span>
+           <p>A powerful, flexible, and highly configurable text editing tool specially designed for large files
+A powerful and highly configurable text and hex editor with unrivaled support for large files. Learn more.</p>
+<div>
+<button>
+    DOWNLOAD MAC OR WINDOWS
+</button>
+</div>
         </section>
-        <section>
-            Doenlode the image from the link below and use it as a background image for the section.
+        <section class="second">
+            <div class="download">
+                <span>Download Ultraedit</span>
+                <span class="small">v2024.1(released 29/02/2024) | Hotfix</span>
+            
+            </div>
+            <div class="grid">
+                <div class="item">
+                    <div class="item-lang">English</div>
+                    <button class="btn blue"></button>
+                    <button class="btn green"></button>
+                </div>
+            </div>
+
         </section>
-        <section>
-            Doenlode the image from the link below and use it as a background image for the section.
-        </section>
-</main>
-    <main class="main-2">
-        <section>
-            Doenlode the image from the link below and use it as a background image for the section.
-        </section>
-        <section>
-            Doenlode the image from the link below and use it as a background image for the section.
-        </section>
-        <section>
-            Doenlode the image from the link below and use it as a background image for the section.
-        </section>
-</main>
+    </main>
 </body>
 </html>
