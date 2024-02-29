@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let rand = Math.random();
+        let first, second, third;
+         //let 1st
+        if(rand<0.33){
+            first = "rock";
+        }
+        else if(rand<0.66 && rand>=0.33){
+            first = "paper";
+        }
+        else{
+            first = "scissors";
+        }
+        // let second 
+        if(rand<0.33){
+            second = "rock";
+        }
+        else if(rand<0.66 && rand>=0.33){
+            second = "paper";
+        }
+        else{
+            second = "scissors";
+        }
+        // let third
+        if(rand<0.33){
+            third = "rock";
+        }
+        else if(rand<0.66 && rand>=0.33){
+            third = "paper";
+        }
+        else{
+            third = "scissors";
+        }
+        console.log(`First: ${first}, Second: ${second}, Third: ${third}`)
+    </script>
+</body>
+</html>
