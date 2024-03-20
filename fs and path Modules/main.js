@@ -6,8 +6,12 @@ console.log("Starting")
 fs.writeFile("hello.txt", "Hello from Node.js", () =>{
     console.log("File written")
     fs.readFile("hello.txt", "utf8", (err, data) =>{
-     console.log(err, data)
+     console.log(err, data.toString)
 })
 })
+fs.appendFile("hello.txt", "Hello again", () =>{
+    console.log("File written")
+    fs.readFile("hello.txt", "utf8", (err, data) =>{
+     console.log(err, data.toString )
 
 console.log("Ending...")
